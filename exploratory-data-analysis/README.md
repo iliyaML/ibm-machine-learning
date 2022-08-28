@@ -65,8 +65,8 @@ NoSQL databases are not relational and vary more in structure. Most NoSQL databa
 
 Exercises:
 
-- 01a_DEMO_Reading_Data.ipynb
-- 01b_LAB_Reading_Data.ipynb
+- [01a_DEMO_Reading_Data.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01a_DEMO_Reading_Data.ipynb)
+- [01b_LAB_Reading_Data.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01b_LAB_Reading_Data.ipynb)
 
 ## Data Cleaning
 
@@ -80,7 +80,7 @@ Common policies to deal with outliers are: remove outliers, impute them, use a v
 
 Exercises:
 
-- Data_Cleaning_Lab.ipynb
+- [Data_Cleaning_Lab.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/Data_Cleaning_Lab.ipynb)
 
 ## Exploratory Data Analysis
 
@@ -90,8 +90,8 @@ EDA is also important in the process of identifying patterns, observing trends, 
 
 Common summary statistics for EDA include finding summary statistics and producing visualizations.
 
-- 01c_LAB_EDA.ipynb
-- EDA_Lab.ipynb
+- [01c_LAB_EDA.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01c_LAB_EDA.ipynb)
+- [EDA_Lab.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/EDA_Lab.ipynb)
 
 ## Feature Engineering and Variable Transformation
 
@@ -101,8 +101,8 @@ Common variable transformations are: calculating log transformations and polynom
 
 Exercises:
 
-- 01d_DEMO_Feature_Engineering.ipynb
-- Feature_Engineering_Lab.ipynb
+- [01d_DEMO_Feature_Engineering.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01d_DEMO_Feature_Engineering.ipynb)
+- [Feature_Engineering_Lab.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/Feature_Engineering_Lab.ipynb)
 
 ## Estimation and Inference
 
@@ -142,5 +142,5 @@ Spurious correlations happen in data. They are just coincidences given a particu
 
 Exercises:
 
-- 01e_DEMO_Hypothesis_Testing.ipynb
-- HypothesisTesting_Lab.ipynb
+- [01e_DEMO_Hypothesis_Testing.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01e_DEMO_Hypothesis_Testing.ipynb)
+- [HypothesisTesting_Lab.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/HypothesisTesting_Lab.ipynb)
