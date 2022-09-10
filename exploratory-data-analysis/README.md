@@ -1,12 +1,24 @@
 # Review
 
+Exercises:
+
+- [01a_DEMO_Reading_Data.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01a_DEMO_Reading_Data.ipynb)
+- [01b_LAB_Reading_Data.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01b_LAB_Reading_Data.ipynb)
+- [Data_Cleaning_Lab.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/Data_Cleaning_Lab.ipynb)
+- [01c_LAB_EDA.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01c_LAB_EDA.ipynb)
+- [EDA_Lab.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/EDA_Lab.ipynb)
+- [01d_DEMO_Feature_Engineering.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01d_DEMO_Feature_Engineering.ipynb)
+- [Feature_Engineering_Lab.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/Feature_Engineering_Lab.ipynb)
+- [01e_DEMO_Hypothesis_Testing.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01e_DEMO_Hypothesis_Testing.ipynb)
+- [HypothesisTesting_Lab.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/HypothesisTesting_Lab.ipynb)
+
 ## Introduction to Artificial Intelligence and Machine Learning
 
-Artificial Intelligence is a branch of computer science dealing with the simulation of intelligent behavior in computers. Machines mimic cognitive functions such as learning and problem solving.
+**Artificial Intelligence** is a branch of computer science dealing with the simulation of intelligent behavior in computers. Machines mimic cognitive functions such as learning and problem solving.
 
-Machine learning is the study of programs that are not explicitly programmed, but instead these algorithms learn patterns from data.
+**Machine Learning** is the study of programs that are not explicitly programmed, but instead these algorithms learn patterns from data.
 
-Deep learning is a subset of machine learning in which multilayered neural networks learn from vast amounts of data.
+**Deep Learning** is a subset of machine learning in which multilayered neural networks learn from vast amounts of data.
 
 ## History of AI
 
@@ -31,10 +43,10 @@ The machine learning workflow consists of:
 
 This is a summary of the common taxonomy for data in open source packages for Machine Learning:
 
-- target: category or value you are trying to predict
-- features: explanatory variables used for prediction
-- example: an observation or single data point within the data
-- label: the value of the target for a single data point
+- **target**: category or value you are trying to predict
+- **features**: explanatory variables used for prediction
+- **example**: an observation or single data point within the data
+- **label**: the value of the target for a single data point
 
 ## Retrieving Data
 
@@ -70,7 +82,7 @@ Exercises:
 
 ## Data Cleaning
 
-Data Cleaning is important because messy data will lead to unreliable outcomes. Some common issues that make data messy are: duplicate or unnecessary data, inconsistent data and typos, missing data, outliers, and data source issues.
+**Data Cleaning** is important because messy data will lead to unreliable outcomes. Some common issues that make data messy are: duplicate or unnecessary data, inconsistent data and typos, missing data, outliers, and data source issues.
 
 You can identify duplicate or unnecessary data. Common policies to deal with missing data are:remove a row with missing columns, impute the missing data, and mask the data by creating a category for missing values.
 
@@ -84,7 +96,7 @@ Exercises:
 
 ## Exploratory Data Analysis
 
-EDA is an approach to analyzing data sets that summarizes their main characteristics, often using visual methods. It helps you determine if the data is usable as-is, or if it needs further data cleaning.
+**EDA** is an approach to analyzing data sets that summarizes their main characteristics, often using visual methods. It helps you determine if the data is usable as-is, or if it needs further data cleaning.
 
 EDA is also important in the process of identifying patterns, observing trends, and formulating hypothesis.
 
@@ -106,7 +118,7 @@ Exercises:
 
 ## Estimation and Inference
 
-Inferential Statistics consist in learning characteristics of the population from a sample. The population characteristics are parameters, while the sample characteristics are statistics. A parametric model, uses a certain number of parameters like mean and standard deviation.
+**Inferential Statistics** consist in learning characteristics of the population from a sample. The population characteristics are parameters, while the sample characteristics are statistics. A parametric model, uses a certain number of parameters like mean and standard deviation.
 
 The most common way of estimating parameters in a parametric model is through maximum likelihood estimation.
 
@@ -116,13 +128,13 @@ Estimation represents a process of determining a population parameter based on a
 
 The most common distribution functions are: uniform, normal, log normal, exponential, and poisson.
 
-A frequentist approach focuses in observing man repeats of an experiment. A bayesian approach describes parameters through probability distributions.
+A **frequentist approach** focuses in observing man repeats of an experiment. A **bayesian approach** describes parameters through probability distributions.
 
 ## Hypothesis Testing
 
-A hypothesis is a statement about a population parameter. You commonly have two hypothesis: the null hypothesis and the alternative hypothesis.
+A hypothesis is a statement about a population parameter. You commonly have two hypothesis: the **null hypothesis** and the **alternative hypothesis**.
 
-A hypothesis test gives you a rule to decide for which values of the test statistic you accept the null hypothesis and for which values you reject the null hypothesis and accept he alternative hypothesis.
+A hypothesis test gives you a rule to decide for which values of the test statistic you accept the null hypothesis and for which values you reject the null hypothesis and accept the alternative hypothesis.
 
 A type 1 error occurs when an effect is due to chance, but we find it to be significant in the model.
 
@@ -130,9 +142,9 @@ A type 2 error occurs when we ascribe the effect to chance, but the effect is no
 
 ## Significance level and p-values
 
-A significance level is a probability threshold below which the null hypothesis can be rejected. You must choose the significance level before computing the test statistic. It is usually .01 or .05.
+A **significance level** is a probability threshold below which the null hypothesis can be rejected. You must choose the significance level before computing the test statistic. It is usually .01 or .05.
 
-A p-value is the smallest significance level at which the null hypothesis would be rejected. The confidence interval contains the values of the statistic for which we accept the null hypothesis.
+A **p-value** is the smallest significance level at which the null hypothesis would be rejected. The confidence interval contains the values of the statistic for which we accept the null hypothesis.
 
 Correlations are useful as effects can help predict an outcome, but correlation does not imply causation.
 
