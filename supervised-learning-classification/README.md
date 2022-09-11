@@ -1,5 +1,39 @@
 # Review
 
+Exercises:
+
+- Logistic Regression
+
+  - [03a_LAB_Logistic_Regression_Error_Metrics.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/logistic-regression/03a_LAB_Logistic_Regression_Error_Metrics.ipynb)
+  - [lab_jupyter_logistic_regression.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/logistic-regression/lab_jupyter_logistic_regression.ipynb)
+
+- K Nearest Neighbor
+
+  - [03b_LAB_KNN.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/knn/03b_LAB_KNN.ipynb)
+  - [lab_jupyter_knn.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/knn/lab_jupyter_knn.ipynb)
+
+- Support Vector Machine
+
+  - [03c_DEMO_SVM.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/svm/03c_DEMO_SVM.ipynb)
+  - [lab_jupyter_svm.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/svm/lab_jupyter_svm.ipynb)
+
+- Decision Trees
+
+  - [03d_LAB_Decision_Trees.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/decision-trees/03d_LAB_Decision_Trees.ipynb)
+  - [lab_jupyter_decisiontree.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/decision-trees/lab_jupyter_decisiontree.ipynb)
+
+- Ensemble Models
+
+  - [03e_DEMO_Bagging.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/ensemble-models/03e_DEMO_Bagging.ipynb)
+  - [Bagging.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/ensemble-models/Bagging.ipynb)
+  - [03f_LAB_Boosting_and_Stacking.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/ensemble-models/03f_LAB_Boosting_and_Stacking.ipynb)
+  - [Ada_Boost.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/ensemble-models/Ada_Boost.ipynb)
+  - [Gradient_Boosting.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/ensemble-models/Gradient_Boosting.ipynb)
+  - [Stacking.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/ensemble-models/Stacking.ipynb)
+
+- lab_jupyter_model-explanations.ipynb
+- lab_jupyter_imbalanced_data.ipynb
+
 ## Classification Problems
 
 The two main types of supervised learning models are:
@@ -142,7 +176,7 @@ Stacking is an ensemble method that combines any type of model by combining the 
 
 Exercises:
 
-- Stackin\_\_For_Classification_with_Python.ipynb
+- Stacking.ipynb
 
 ## Modeling Unbalanced Classes
 
