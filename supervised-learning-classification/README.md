@@ -31,8 +31,8 @@ Exercises:
   - [Gradient_Boosting.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/ensemble-models/Gradient_Boosting.ipynb)
   - [Stacking.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/ensemble-models/Stacking.ipynb)
 
-- lab_jupyter_model-explanations.ipynb
-- lab_jupyter_imbalanced_data.ipynb
+- [lab_jupyter_model-explanations.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/lab_jupyter_model-explanations.ipynb)
+- [lab_jupyter_imbalanced_data.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-classification/lab_jupyter_imbalanced_data.ipynb)
 
 ## Classification Problems
 
