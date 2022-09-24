@@ -36,10 +36,10 @@ Exercises:
 
 ## Classification Problems
 
-The two main types of supervised learning models are:
+The types of **Supervised Machine Learning** are:
 
-- Regression models, which predict a continuous outcome
-- Classification models, which predict a categorical outcome.
+- **Regression** models, which predict a continuous outcome
+- **Classification** models, which predict a categorical outcome.
 
 The most common models used in supervised learning are:
 
@@ -56,7 +56,7 @@ With the exception of logistic regression, these models are commonly used for bo
 
 ## Logistic Regression
 
-Logistic regression is a type of regression that models the probability of a certain class occurring given other independent variables.It uses a logistic or logit function to model a dependent variable. It is a very common predictive model because of its high interpretability.
+**Logistic Regression** is a type of regression that models the probability of a certain class occurring given other independent variables.It uses a logistic or logit function to model a dependent variable. It is a very common predictive model because of its high interpretability.
 
 Exercises:
 
@@ -65,27 +65,27 @@ Exercises:
 
 ## Classification Error Metrics
 
-A confusion matrix tabulates true positives, false negatives, false positives and true negatives. Remember that the false positive rate is also known as a type I error. The false negatives are also known as a type II error.
+A **Confusion Matrix** tabulates true positives, false negatives, false positives and true negatives. Remember that the false positive rate is also known as a type I error. The false negatives are also known as a type II error.
 
-Accuracy is defined as the ratio of true postives and true negatives divided by the total number of observations. It is a measure related to predicting correctly positive and negative instances.
+**Accuracy** is defined as the ratio of true postives and true negatives divided by the total number of observations. It is a measure related to predicting correctly positive and negative instances.
 
-Recall or sensitivity identifies the ratio of true positives divided by the total number of actual positives. It quantifies the percentage of positive instances correctly identified.
+**Recall** or **Sensitivity** identifies the ratio of true positives divided by the total number of actual positives. It quantifies the percentage of positive instances correctly identified.
 
-Precision is the ratio of true positive divided by total of predicted positives. The closer this value is to 1.0, the better job this model does at identifying only positive instances.
+**Precision** is the ratio of true positive divided by total of predicted positives. The closer this value is to 1.0, the better job this model does at identifying only positive instances.
 
-Specificity is the ratio of true negatives divided by the total number of actual negatives. The closer this value is to 1.0, the better job this model does at avoiding false alarms.
+**Specificity** is the ratio of true negatives divided by the total number of actual negatives. The closer this value is to 1.0, the better job this model does at avoiding false alarms.
 
-The receiver operating characteristic (ROC) plots the true positive rate (sensitivity) of a model vs. its false positive rate (1-sensitivity).
+The **Receiver Operating Characteristic (ROC)** plots the true positive rate (sensitivity) of a model vs. its false positive rate (1-sensitivity).
 
-The area under the curve of a ROC plot is a very common method of selecting a classification methods.T
+The **Area Under the Curve (AUC)** of a ROC plot is a very common method of selecting a classification methods.
 
-he precision-recall curve measures the trade-off between precision and recall.
+The **Precision-Recall Curve** measures the trade-off between precision and recall.
 
 The ROC curve generally works better for data with balanced classes, while the precision-recall curve generally works better for data with unbalanced classes.
 
 ## K Nearest Neighbor Methods for Classification
 
-K Nearest Neighbor methods are useful for classification. The elbow method is frequently used to identify a model with low K and low error rate.
+**K Nearest Neighbor methods** are useful for classification. The elbow method is frequently used to identify a model with low K and low error rate.
 
 These methods are popular due to their easy computation and interpretability, although it might take time scoring new observations, it lacks estimators, and might not be suited for large data sets.
 
@@ -96,7 +96,7 @@ Exercises:
 
 ## Support Vector Machines
 
-The main idea behind support vector machines is to find a hyperplane that separates classes by determining decision boundaries that maximize the distance between classes.
+The main idea behind **Support Vector Machines (SVM)** is to find a hyperplane that separates classes by determining decision boundaries that maximize the distance between classes.
 
 When comparing logistic regression and SVMs, one of the main differences is that the cost function for logistic regression has a cost function that decreases to zero, but rarely reaches zero. SVMs use the Hinge Loss function as a cost function to penalize misclassification. This tends to lead to better accuracy at the cost of having less sensitivity on the predicted probabilities.
 
@@ -111,7 +111,7 @@ Exercises:
 
 ## Decision Trees
 
-Decision trees split your data using impurity measures. They are a greedy algorithm and are not based on statistical assumptions.
+**Decision Trees** split your data using impurity measures. They are a greedy algorithm and are not based on statistical assumptions.
 
 The most common splitting impurity measures are Entropy and Gini index.Decision trees tend to overfit and to be very sensitive to different data.
 
@@ -128,7 +128,7 @@ Exercises:
 
 ### Ensemble Based Methods and Bagging
 
-Tree ensembles have been found to generalize well when scoring new data. Some useful and popular tree ensembles are bagging, boosting, and random forests. Bagging, which combines decision trees by using bootstrap aggregated samples. An advantage specific to bagging is that this method can be multithreaded or computed in parallel. Most of these ensembles are assessed using out-of-bag error.
+**Tree ensembles** have been found to generalize well when scoring new data. Some useful and popular tree ensembles are **bagging**, **boosting**, and **random forests**. Bagging, which combines decision trees by using bootstrap aggregated samples. An advantage specific to bagging is that this method can be multithreaded or computed in parallel. Most of these ensembles are assessed using out-of-bag error.
 
 Exercises:
 
@@ -137,7 +137,7 @@ Exercises:
 
 ### Random Forest
 
-Random forest is a tree ensemble that has a similar approach to bagging. Their main characteristic is that they add randomness by only using a subset of features to train each split of the trees it trains. Extra Random Trees is an implementation that adds randomness by creating splits at random, instead of using a greedy search to find split variables and split points.
+**Random Forest** is a tree ensemble that has a similar approach to bagging. Their main characteristic is that they add randomness by only using a subset of features to train each split of the trees it trains. Extra Random Trees is an implementation that adds randomness by creating splits at random, instead of using a greedy search to find split variables and split points.
 
 Exercises:
 
@@ -145,7 +145,7 @@ Exercises:
 
 ### Boosting
 
-Boosting methods are additive in the sense that they sequentially retrain decision trees using the observations with the highest residuals on the previous tree. To do so, observations with a high residual are assigned a higher weight.
+**Boosting methods** are additive in the sense that they sequentially retrain decision trees using the observations with the highest residuals on the previous tree. To do so, observations with a high residual are assigned a higher weight.
 
 Exercises:
 
@@ -156,9 +156,9 @@ Exercises:
 
 The main loss functions for boosting algorithms are:
 
-- 0-1 loss function, which ignores observations that were correctly classified. The shape of this loss function makes it difficult to optimize.
-- Adaptive boosting loss function, which has an exponential nature. The shape of this function is more sensitive to outliers.
-- Gradient boosting loss function. The most common gradient boosting implementation uses a binomial log-likelihood loss function called deviance. It tends to be more robust to outliers than AdaBoost.
+- **0-1** loss function, which ignores observations that were correctly classified. The shape of this loss function makes it difficult to optimize.
+- **Adaptive boosting** loss function, which has an exponential nature. The shape of this function is more sensitive to outliers.
+- **Gradient boosting** loss function. The most common gradient boosting implementation uses a binomial log-likelihood loss function called deviance. It tends to be more robust to outliers than AdaBoost.
 
 The additive nature of gradient boosting makes it prone to overfitting. This can be addressed using cross validation or fine tuning the number of boosting iterations. Other hyperparameters to fine tune are:
 
@@ -172,7 +172,7 @@ Exercises:
 
 ### Stacking
 
-Stacking is an ensemble method that combines any type of model by combining the predicted probabilities of classes. In that sense, it is a generalized case of bagging. The two most common ways to combine the predicted probabilities in stacking are: using a majority vote or using weights for each predicted probability.
+**Stacking** is an ensemble method that combines any type of model by combining the predicted probabilities of classes. In that sense, it is a generalized case of bagging. The two most common ways to combine the predicted probabilities in stacking are: using a majority vote or using weights for each predicted probability.
 
 Exercises:
 

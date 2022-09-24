@@ -9,7 +9,7 @@ Exercises:
 
 ## Unsupervised Learning Algorithms
 
-Unsupervised algorithms are relevant when we don’t have an outcome or labeled variable we are trying to predict.
+**Unsupervised Learning Algorithms** are relevant when we don’t have an outcome or labeled variable we are trying to predict.
 
 They are helpful to find structures within our data set and when we want to partition our data set into smaller pieces.
 
@@ -38,21 +38,21 @@ In theory, a large number of features should improve performance. In theory, as 
 
 To fix these problems in real life, it's best to reduce the dimension of the data set.
 
-Similar to feature selection, you can use Unsupervised Machine Learning models such as Principal Components Analysis.
+Similar to feature selection, you can use Unsupervised Machine Learning models such as **Principal Components Analysis**.
 
 ### Common uses of clustering cases in the real world
 
-1. Anomaly detection
+1. **Anomaly Detection**
 
    Example: Fraudulent transactions.
 
    Suspicious fraud patterns such as small clusters of credit card transactions with high volume of attempts, small amounts, at new merchants. This creates a new cluster and this is presented as an anomaly so perhaps there’s fraudulent transactions happening.
 
-2. Customer segmentation
+2. **Customer Segmentation**
 
    You could segment the customers by recency, frequency, average amount of visits in the last 3 months. Another common type of segmentation is by demographics and the level of engagement, for example: single costumers, new parents, empty nesters, etc. And the combinations of each with the preferred marketing channel, so you can use these insights for future marketing campaigns.
 
-3. Improve supervised learning
+3. **Improve Supervised Learning**
 
    You can perform a Logistic regression for each cluster. This means training one model for each segment of your data to try to improve classification.
 
@@ -68,7 +68,7 @@ Similar to feature selection, you can use Unsupervised Machine Learning models s
 
 ### K-means Clustering
 
-K-means clustering is an iterative process in which similar observations are grouped together. To do that, this algorithm starts by taking 2 random points known as centroids, and starts calculating the distance of each observation to the centroid, and assigning each cluster to the nearest centroid. After the first iteration every point belongs to a cluster.
+**K-means Clustering** is an iterative process in which similar observations are grouped together. To do that, this algorithm starts by taking 2 random points known as centroids, and starts calculating the distance of each observation to the centroid, and assigning each cluster to the nearest centroid. After the first iteration every point belongs to a cluster.
 
 Next, the number of centroids increases by one, and the centroid for each cluster are recalculated as the points with the average distance to all points in a given cluster. Then we keep repeating this process until no example is assigned to another cluster.
 
@@ -216,7 +216,7 @@ y_predict = agg.predict(X2)
 
 ## Non Negative Matrix Decomposition
 
-Non Negative Matrix Decomposition is another way of reducing the number of dimensions. Similar to PCA, it is also a matrix decomposition method in the form V=WxH.
+**Non Negative Matrix Decomposition** is another way of reducing the number of dimensions. Similar to PCA, it is also a matrix decomposition method in the form V=WxH.
 
 The main difference is that it can only be applied to matrices that have positive values as inputs, for example:
 
@@ -236,9 +236,9 @@ NMF has proven to be powerful for:
 
 There are advantages and disadvantages of only dealing with non negative values.
 
-An advantage, is that NMF leads to features that tend to be more interpretable. For example, in facial recognition, the decomposed components match to something more interpretable like, for example, the nose, the eyebrows, or the mouth.
+- An advantage, is that NMF leads to features that tend to be more interpretable. For example, in facial recognition, the decomposed components match to something more interpretable like, for example, the nose, the eyebrows, or the mouth.
 
-A disadvantage is that NMF truncates negative values by default to impose the added constraint of only positive values. This truncation tends to lose more information than other decomposition methods.
+- A disadvantage is that NMF truncates negative values by default to impose the added constraint of only positive values. This truncation tends to lose more information than other decomposition methods.
 
 Unlike PCA, it does not have to use orthogonal latent vectors, and can end up using vectors that point in the same direction.
 

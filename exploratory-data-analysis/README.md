@@ -57,7 +57,7 @@ You can retrieve data from multiple sources:
 - APIs
 - Cloud data sources
 
-The two most common formats for delimited data flat files are comma separated (csv) and tab separated (tsv). It is also possible to use special characters as separators.
+The two most common formats for delimited data flat files are **comma separated (csv)** and **tab separated (tsv)**. It is also possible to use special characters as separators.
 
 SQL represents a set of relational databases with fixed schemas.
 
@@ -71,9 +71,9 @@ The steps to read in a database file using the sqlite library are:
 - create an observations variable to assign the read_sql functions from pandas package
 - create a tables variable to read in the data from the table sqlite_master
 
-JSON files are a standard way to store data across platforms. Their structure is similar to Python dictionaries.
+**JSON files** are a standard way to store data across platforms. Their structure is similar to Python dictionaries.
 
-NoSQL databases are not relational and vary more in structure. Most NoSQL databases store data in JSON format.
+**NoSQL databases** are not relational and vary more in structure. Most NoSQL databases store data in JSON format.
 
 Exercises:
 
@@ -86,9 +86,18 @@ Exercises:
 
 You can identify duplicate or unnecessary data. Common policies to deal with missing data are:remove a row with missing columns, impute the missing data, and mask the data by creating a category for missing values.
 
-Common methods to find outliers are: through plots, statistics, or residuals.
+Common methods to find outliers are:
 
-Common policies to deal with outliers are: remove outliers, impute them, use a variable transformation, or use a model that is resistant to outliers.
+- plots
+- statistics
+- residuals
+
+Common policies to deal with outliers are:
+
+- remove outliers
+- impute them
+- use a variable transformation
+- use a model that is resistant to outliers
 
 Exercises:
 
@@ -100,16 +109,20 @@ Exercises:
 
 EDA is also important in the process of identifying patterns, observing trends, and formulating hypothesis.
 
-Common summary statistics for EDA include finding summary statistics and producing visualizations.
+Common summary statistics for EDA include **finding summary statistics** and **producing visualizations**.
 
 - [01c_LAB_EDA.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/01c_LAB_EDA.ipynb)
 - [EDA_Lab.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/exploratory-data-analysis/EDA_Lab.ipynb)
 
 ## Feature Engineering and Variable Transformation
 
-Transforming variables helps to meet the assumptions of statistical models. A concrete example is a linear regression, in which you may transform a predictor variable such that it has a linear relation with a target variable.
+**Transforming variables** helps to meet the assumptions of statistical models. A concrete example is a linear regression, in which you may transform a predictor variable such that it has a linear relation with a target variable.
 
-Common variable transformations are: calculating log transformations and polynomial features, encoding a categorical variable, and scaling a variable.
+Common variable transformations are:
+
+- calculating log transformations and polynomial features
+- encoding a categorical variable
+- scaling a variable
 
 Exercises:
 
@@ -126,7 +139,13 @@ Through a hypothesis test, you test for a specific value of the parameter.
 
 Estimation represents a process of determining a population parameter based on a model fitted to the data.
 
-The most common distribution functions are: uniform, normal, log normal, exponential, and poisson.
+The most common distribution functions are:
+
+- uniform
+- normal
+- log normal
+- exponential
+- poisson
 
 A **frequentist approach** focuses in observing man repeats of an experiment. A **bayesian approach** describes parameters through probability distributions.
 
@@ -136,9 +155,9 @@ A hypothesis is a statement about a population parameter. You commonly have two 
 
 A hypothesis test gives you a rule to decide for which values of the test statistic you accept the null hypothesis and for which values you reject the null hypothesis and accept the alternative hypothesis.
 
-A type 1 error occurs when an effect is due to chance, but we find it to be significant in the model.
+A **type 1 error** occurs when an effect is due to chance, but we find it to be significant in the model.
 
-A type 2 error occurs when we ascribe the effect to chance, but the effect is non-coincidental.
+A **type 2 error** occurs when we ascribe the effect to chance, but the effect is non-coincidental.
 
 ## Significance level and p-values
 
@@ -146,7 +165,7 @@ A **significance level** is a probability threshold below which the null hypothe
 
 A **p-value** is the smallest significance level at which the null hypothesis would be rejected. The confidence interval contains the values of the statistic for which we accept the null hypothesis.
 
-Correlations are useful as effects can help predict an outcome, but correlation does not imply causation.
+**Correlations** are useful as effects can help predict an outcome, but **correlation does not imply causation**.
 
 When making recommendations, one should take into consideration confounding variables and the fact that correlation across two variables do not imply that an increase or decrease in one of them will drive an increase or decrease of the other.
 

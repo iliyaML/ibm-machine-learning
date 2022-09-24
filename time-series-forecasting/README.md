@@ -2,7 +2,7 @@
 
 ## Time Series
 
-Time Series is a sequence of data points organized in time order.
+**Time Series** is a sequence of data points organized in time order.
 
 The sequence captures data at equally spaced points in time. Data that is not collected regularly at equally spaced points is not considered time series.
 
@@ -18,7 +18,7 @@ For most forecasting exercises, standard regression approaches do not work for T
 
 These are the two types of forecasting problems. Consider that the vast majority of applications employ univariate models, harder to combine variables when using time series data.
 
-1. Univariate
+1. **Univariate**
 
 Think of single data series containing of:
 
@@ -26,7 +26,7 @@ Think of single data series containing of:
 - Multiple unrelated series
 - Conditional series
 
-2. Panel or Multivariate
+2. **Panel** or **Multivariate**
 
 Think of multiple related series identifying groups such as customer types, department or channel, or geographic joint estimation across series
 
@@ -34,9 +34,9 @@ Think of multiple related series identifying groups such as customer types, depa
 
 Time series data is common across many industries. For example:
 
-- Finance: stock prices, asset prices, macroeconomic factors
-- E-Commerce: page views, new users, searches
-- Business: transactions, revenue, inventory levels
+- **Finance**: stock prices, asset prices, macroeconomic factors
+- **E-Commerce**: page views, new users, searches
+- **Business**: transactions, revenue, inventory levels
 
 Time series methods are used to:
 
@@ -92,7 +92,7 @@ We expect features related to a multiplicative model.
 
 A division by zero needs to be solved in the form: **Ot = Tt + Tt(St – 1) + Tt(Rt – 1) = Tt(St + Rt – 1)**
 
-Decomposition of time series allows us to remove deterministic components, which would otherwise complicate modeling.
+**Decomposition of time series** allows us to remove deterministic components, which would otherwise complicate modeling.
 
 After removing these components, the main focus is to model the residual.
 
@@ -108,7 +108,7 @@ These are some other approaches of time series decomposition:
 
 Stationarity impacts our ability to model and forecast
 
-- A **stationary** series has the same mean and variance over time
+- **Stationary** series have the same mean and variance over time
 - **Non-stationary** series are much harder to model
 
 Common approach:
