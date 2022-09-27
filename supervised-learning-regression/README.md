@@ -1,5 +1,13 @@
 # Review
 
+Exercises:
+
+- [02a_LAB_Transforming_Target.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-regression/02a_LAB_Transforming_Target.ipynb)
+- [02b_LAB_Regression_Train_Test_Split.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-regression/02b_LAB_Regression_Train_Test_Split.ipynb)
+- [02c_DEMO_Cross_Validation.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-regression/02c_DEMO_Cross_Validation.ipynb)
+- [02d_DEMO_Regularization_and_Gradient_Descent.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-regression/02d_DEMO_Regularization_and_Gradient_Descent.ipynb)
+- [02e_LAB_Regularization.ipynb](https://colab.research.google.com/github/iliyaML/ibm-machine-learning/blob/main/supervised-learning-regression/02e_LAB_Regularization.ipynb)
+
 ## Introduction to Supervised Machine Learning
 
 The types of **Supervised Machine Learning** are:
