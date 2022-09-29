@@ -2,7 +2,7 @@
 
 Course Notes
 
-### [IBM Machine Learning Specialization (Coursera)](https://www.coursera.org/professional-certificates/ibm-machine-learning)
+### IBM Machine Learning
 
 1. [exploratory-data-analysis](https://github.com/iliyaML/ibm-machine-learning/tree/main/exploratory-data-analysis)
 2. [supervised-learning-regression](https://github.com/iliyaML/ibm-machine-learning/tree/main/supervised-learning-regression)
